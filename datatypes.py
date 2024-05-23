@@ -1,0 +1,11 @@
+a=15
+b=2.56
+c="hello"
+d=True
+e=2+12j
+print(a,b,c,d,e)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
