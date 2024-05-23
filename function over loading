@@ -1,0 +1,10 @@
+class arthmatic:
+    def add(self,a)
+        print(a)
+    def add (self,a,b):
+        print(a+b)
+    def add (self,a,b,c):
+        print(a+b+c)
+obj=arthmatic()
+
+obj.add(6,3,5)
