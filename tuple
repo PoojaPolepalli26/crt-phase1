@@ -1,0 +1,11 @@
+tuple=("hello",56,77,100,1.56)
+print(tuple)
+print(type(tuple))
+tuple=tuple+("python",)
+print(tuple)
+tuple=tuple+(57,48)
+print(tuple)
+for i in range(0,5):
+    n=int(input("enter"))
+    tuple=tuple+(n,)
+    print(tuple)
