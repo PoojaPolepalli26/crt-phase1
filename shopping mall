@@ -1,0 +1,22 @@
+class shopping:
+    def __init__(self,place):
+        self.place=place
+        print("welcome to the shopping at",place)
+    def dresstype(self,model):
+        
+        self.a=model
+    def price(self,money):
+        
+        self.b=money
+    def size (self,s):
+        
+        self.c=s
+    def display(self):
+        print(self.a)
+        print(self.b)
+        print(self.c,self.place)
+sravya=shopping("zudio")
+sravya.dresstype("frock")
+sravya.price(2000)
+sravya.size("m")
+sravya.display()
