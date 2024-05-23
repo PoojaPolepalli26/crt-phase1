@@ -1,0 +1,12 @@
+n=1221
+c=n
+p=0
+while n>0:
+    d=n%10
+    p=p*10+d
+    n=n//10
+print(p)
+if c==p:
+    print('palandrome')
+else:
+    print('not')
