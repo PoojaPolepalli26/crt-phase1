@@ -1,0 +1,12 @@
+dict={101:"a",102:"hello",103:54,104:31.4,105:"b"}
+print(dict)
+dict[103]="h"
+print(dict[104],dict[103])
+for i in dict:
+    print(i)
+for x in dict.values():
+    print(x)
+for x,y in dict.items():
+    print(x,y)
+dict.pop(105)
+print(dict)
