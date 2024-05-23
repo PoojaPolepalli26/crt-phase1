@@ -1,0 +1,7 @@
+def func(a,b,c):
+    print(a+b+c%3)
+func(3,5,8)'''
+
+
+
+
