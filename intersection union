@@ -1,0 +1,15 @@
+set1={"hello",56,75,89}
+set={10,30,40,45,"ipl"}
+print(set)
+set.add(5)
+print(set)
+set.update([13,10,])
+print(set)
+set.remove(30)
+set.discard(45)
+newset=set.union(set1)
+print(newset)
+newset=set.intersection(set1)
+print(newset)
+newset=set.difference(set1)
+print(newset)
