@@ -1,0 +1,14 @@
+class placements:
+    def info(self):
+        print("1063")
+class dept(placements):
+    def display(self):
+        print("ll depts")
+
+class pragati(placements):
+    def welcome(self):
+        print("welcome")
+
+p=pragati()
+p.info()
+p.welcome()
